@@ -2,6 +2,7 @@ const searchResultsDomManager = {
   busStopFactory(busStop, index) {
     console.log("busStopFactory");
 
+    // We use the "index" to make unique ids for each bus stop
     return `
       <section id="busstop-${index}" class="bus-stop">
         <div id="routename-${index}" class="bus-stop__route-name">
