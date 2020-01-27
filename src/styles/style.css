@@ -1,0 +1,10 @@
+.bus-stop {
+    margin: 8px 0 16px 0;
+    padding: 4px;
+}
+
+.bus-stop.favorite {
+    font-weight: bold;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+}
