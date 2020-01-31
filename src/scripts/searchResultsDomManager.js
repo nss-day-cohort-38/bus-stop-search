@@ -1,3 +1,5 @@
+import favoriteEventManager from './favoriteEventManager.js';
+
 const searchResultsDomManager = {
   busStopFactory(busStop, index) {
     console.log("busStopFactory");
@@ -34,3 +36,5 @@ const searchResultsDomManager = {
     favoriteEventManager.addFavoriteEventListeners();
   }
 };
+
+export default searchResultsDomManager;

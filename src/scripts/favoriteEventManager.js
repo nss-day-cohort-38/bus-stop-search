@@ -25,3 +25,5 @@ const favoriteEventManager = {
     }
   }
 }
+
+export default favoriteEventManager;

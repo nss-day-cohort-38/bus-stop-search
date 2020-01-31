@@ -10,3 +10,5 @@ const apiManager = {
     return fetch(url).then(resp => resp.json());
   }
 };
+
+export default apiManager;
