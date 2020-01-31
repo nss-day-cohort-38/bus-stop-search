@@ -1,3 +1,6 @@
+import apiManager from './apiManager.js';
+import searchResultsDomManager from './searchResultsDomManager.js';
+
 const searchEventManager = {
   addSearchClickEventListener() {
     console.log("addSearchClickEventListener");
@@ -17,3 +20,5 @@ const searchEventManager = {
     });
   }
 }
+
+export default searchEventManager;
